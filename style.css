@@ -1,0 +1,5 @@
+.RBLXDiamondCSS {
+  -webkit-clip-path: polygon(50% 0, 85% 50%, 50% 100%, 15% 50%);
+  clip-path: polygon(50% 0, 85% 50%, 50% 100%, 15% 50%);
+  overflow: hidden;
+}

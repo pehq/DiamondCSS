@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "RBLX Diamond Group Icon",
+  "version": "1.0",
+  "description": "Replaces Group radius with a diamond shape.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.roblox.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
