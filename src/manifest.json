@@ -1,13 +1,21 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "RBLX Diamond Group Icon",
-  "version": "1.0",
+  "version": "1.0.5",
   "description": "Replaces Group radius with a diamond shape.",
   "content_scripts": [
     {
-      "matches": ["https://www.roblox.com/*"],
+      "matches": ["https://www.roblox.com/communities/*","https://www.roblox.com/groups/*","https://*.roblox.com/communities/*","https://*.roblox.com/groups/*"],
       "js": ["content.js"],
       "css": ["style.css"]
     }
-  ]
+  ],
+  "host_permissions": [
+    "https://www.roblox.com/communities/*",
+    "https://www.roblox.com/groups/*",
+    "https://*.roblox.com/communities/*",
+    "https://*.roblox.com/groups/*"
+  ],
+  "author": "pehq",
+  "homepage_url": "https://github.com/pehq/DiamondCSS"
 }
